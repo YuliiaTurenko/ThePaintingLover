@@ -1,0 +1,49 @@
+﻿<Window x:Class="ThePaintingLoverApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewmodels="clr-namespace:ThePaintingLoverApplication.ViewModels"
+        xmlns:views="clr-namespace:ThePaintingLoverApplication.Views"
+        mc:Ignorable="d"
+        Icon="/Files/starry-night.png"
+        Title="The Painting Lover" Height="450" Width="806" Background="LightYellow">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid MaxWidth="1200" MinWidth="800">
+            <Grid.Resources>
+                <DataTemplate DataType="{x:Type viewmodels:EntryViewModel}">
+                    <views:EntryView />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodels:RegistrationViewModel}">
+                    <views:RegistrationView />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodels:LoginViewModel}">
+                    <views:LoginView />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodels:MainMenuViewModel}">
+                    <views:MainMenu />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodels:ListOfArtistsViewModel}">
+                    <views:ListOfArtistsView />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodels:ListOfStylesViewModel}">
+                    <views:ListOfStylesView />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodels:FavoritePaintingsViewModel}">
+                    <views:FavoritePaintingsView />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodels:NotesViewModel}">
+                    <views:NotesView />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodels:ArtistViewModel}">
+                    <views:ArtistView />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodels:StyleViewModel}">
+                    <views:StyleView />
+                </DataTemplate>
+            </Grid.Resources>
+            
+            <ContentControl Content="{Binding CurrentViewModel}" />
+        </Grid>
+    </ScrollViewer>
+</Window>

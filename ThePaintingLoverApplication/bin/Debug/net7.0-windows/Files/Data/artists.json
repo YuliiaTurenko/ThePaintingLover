@@ -1,0 +1,452 @@
+[
+  {
+    "Name": "Leonardo da Vinci",
+    "Country": "Italy",
+    "Biography": "Leonardo da Vinci was an Italian painter, draftsman, sculptor, architect, and engineer whose skill and intelligence, perhaps more than that of any other figure, epitomized the Renaissance humanist ideal. \nHe used his superb intellect, unusual powers of observation, and mastery of the art of drawing to study nature itself, a line of inquiry that allowed his dual pursuits of art and science to flourish. \nHe was also frequently consulted as a technical adviser in the fields of architecture, fortifications, and military matters, and he served as a hydraulic and mechanical engineer. As a painter, Leonardo completed six works in the 17 years in Milan. Leonardo surpassed the naturalistic techniques of Early Renaissance masters through his meticulous attention to detail and through the introduction of new methods. \nLeonardo worked and traveled throughout Italy for a number of employers. About 1503, Leonardo reportedly began work on the Mona Lisa. From 1513 to 1516, he worked in Rome, maintaining a workshop and undertaking a variety of projects for the Pope. He continued his studies of human anatomy and physiology, but the Pope forbade him from dissecting cadavers, limiting his progress.",
+    "YearsOfLife": "(born April 15, 1452,  — died May 2, 1519)",
+    "Paintings": [
+      {
+        "Title": "Lady with an Ermine",
+        "ArtistName": "Leonardo da Vinci",
+        "CreationYear": "1489–1491",
+        "FilePath": "/Files/Data/Paintings/LadyWithAnErmine.jpg"
+      },
+      {
+        "Title": "Mona Lisa",
+        "ArtistName": "Leonardo da Vinci",
+        "CreationYear": "1502–1516",
+        "FilePath": "/Files/Data/Paintings/MonaLisa.jpg"
+      },
+      {
+        "Title": "Portrait of a Musician",
+        "ArtistName": "Leonardo da Vinci",
+        "CreationYear": "1483–1487",
+        "FilePath": "/Files/Data/Paintings/PortraitOfAMusician.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Vincent van Gogh",
+    "Country": "Netherlands",
+    "Biography": "Vincent van Gogh was a Dutch painter, generally considered the greatest after Rembrandt van Rijn, and one of the greatest of the Post-Impressionists. The striking color, emphatic brushwork, and contoured forms of his work powerfully influenced the current of Expressionism in modern art. \nVan Gogh is legendary for being mentally unstable, but his paintings are among the most famous and beloved of all time. Van Gogh’s technique of painting with flurries of thick brushstrokes made up of bright colors squeezed straight from the tube would inspire subsequent generations of artists. Van Gogh’s style was spontaneous and instinctive, for he worked with great speed and intensity, determined to capture an effect or a mood while it possessed him. \nVan Gogh said portraiture was his greatest interest. He created more than 43 self-portraits between 1885 and 1889 that vary stylistically. ",
+    "YearsOfLife": "(born March 30, 1853 — died July 29, 1890)",
+    "Paintings": [
+      {
+        "Title": "Self-portrait or Portrait of Theo van Gogh",
+        "ArtistName": "Vincent van Gogh",
+        "CreationYear": "1887",
+        "FilePath": "/Files/Data/Paintings/PortretOfTheo.jpg"
+      },
+      {
+        "Title": "Still Life: Vase with Twelve Sunflowers",
+        "ArtistName": "Vincent van Gogh",
+        "CreationYear": "1888",
+        "FilePath": "/Files/Data/Paintings/VaseWithTwelveSunflowers.jpg"
+      },
+      {
+        "Title": "Starry Night Over the Rhône",
+        "ArtistName": "Vincent van Gogh",
+        "CreationYear": "1888",
+        "FilePath": "/Files/Data/Paintings/StarryNightOverTheRhone.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Michelangelo",
+    "Country": "Italy",
+    "Biography": "Michelangelo was an Italian Renaissance sculptor, painter, architect, and poet who exerted an unparalleled influence on the development of Western art. \nMichelangelo was considered the greatest living artist in his lifetime, and ever since then he has been held to be one of the greatest artists of all time. A number of his works in painting, sculpture, and architecture rank among the most famous in existence. Michelangelo's poetic impulse, which had been expressed in his sculptures, paintings and architecture, began taking literary form in his later years. \nHis David (1501–04), commissioned for the cathedral of Florence, is still considered the prime example of the Renaissance ideal of perfect humanity. On the side, he produced several Madonnas for private patrons and his only universally accepted easel painting, The Holy Family. Attracted to ambitious sculptural projects, which he did not always complete, he reluctantly agreed to paint the ceiling of the Sistine Chapel (1508–12). \nEach of his works transcribes his desire to reject tradition. In his frescoes, so precise that they look like sculptures, the characters embody power and elegance. The influence of the Florentine genius is simply inestimable, as his work is so colossal.",
+    "YearsOfLife": "(born March 6, 1475 — died February 18, 1564)",
+    "Paintings": [
+      {
+        "Title": "The Creation of Adam",
+        "ArtistName": "Michelangelo",
+        "CreationYear": "1508–1512",
+        "FilePath": "/Files/Data/Paintings/TheCreationOfAdam.jpg"
+      },
+      {
+        "Title": "The Crucifixion of Saint Peter",
+        "ArtistName": "Michelangelo",
+        "CreationYear": "1546 – 1550",
+        "FilePath": "/Files/Data/Paintings/TheCrucifixionOfSaintPeter.jpg"
+      },
+      {
+        "Title": "The Torment of Saint Anthony",
+        "ArtistName": "Michelangelo",
+        "CreationYear": "1487 – 1488",
+        "FilePath": "/Files/Data/Paintings/TheTormentOfSaintAnthony.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Rembrandt",
+    "Country": "Netherlands",
+    "Biography": "Rembrandt was a Dutch Baroque painter and printmaker, one of the greatest storytellers in the history of art, possessing an exceptional ability to render people in their various moods and dramatic guises. Rembrandt is also known as a painter of light and shade and as an artist who favored an uncompromising realism that would lead some critics to claim that he preferred ugliness to beauty. \nFrom 1631 to 1635, in Uylenburgh’s workshop, Rembrandt produced a substantial number of portraits and some group portraits. By limiting the amount of detail and using simple but dynamic contours, Rembrandt avoided distracting the viewer’s attention. He led the eye primarily to the face and the suggested movement of the figure. He was also exceptionally good at rendering human skin convincingly.",
+    "YearsOfLife": "(born July 15, 1606 — died October 4, 1669)",
+    "Paintings": [
+      {
+        "Title": "The Anatomy Lesson of Dr. Tulp",
+        "ArtistName": "Rembrandt",
+        "CreationYear": "1632",
+        "FilePath": "/Files/Data/Paintings/TheAnatomyLessonOfDrNicolaesTulp.jpg"
+      },
+      {
+        "Title": "The Storm on the Sea of Galilee",
+        "ArtistName": "Rembrandt",
+        "CreationYear": "1633",
+        "FilePath": "/Files/Data/Paintings/TheStormOnTheLakeOfGalilee.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Vermeer",
+    "Country": "Netherlands",
+    "Biography": "Johannes Vermeer was a Dutch artist who created paintings that are among the most beloved and revered images in the history of art. Although only about 36 of his paintings survive, these rare works are among the greatest treasures in the world’s finest museums. \nVermeer specialized in scenes of domestic life, a genre he helped catapult within the Baroque lexicon. Many of his paintings contain the same furnishings or motifs that inhabited his own private studio, and his models were often women that he knew or relatives of patrons.\n During the height of his career, in paintings depicting women reading or writing letters, playing musical instruments, or adorning themselves with jewelry, Vermeer sought ways to express a sense of inner harmony within everyday life, primarily in the confines of a private chamber. Vermeer’s carefully chosen objects are never placed randomly; their positions, proportions, colours, and textures work in concert with his figures. \n Although he drew his inspiration from his observations of everyday life in such mature work, Vermeer remained at his core a history painter, seeking to evoke abstract moral and philosophical ideas.",
+    "YearsOfLife": "(baptized October 31, 1632 — buried December 16, 1675)",
+    "Paintings": [
+      {
+        "Title": "Girl with a Pearl Earring",
+        "ArtistName": "Vermeer",
+        "CreationYear": "1665",
+        "FilePath": "/Files/Data/Paintings/GirlWithPearlEaring.jpg"
+      },
+      {
+        "Title": "Lady Writing a Letter with her Maid",
+        "ArtistName": "Vermeer",
+        "CreationYear": "1670",
+        "FilePath": "/Files/Data/Paintings/LadyPaintingLetterWithHerMaid.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Jean-Antoine Watteau",
+    "Country": "France",
+    "Biography": "Antoine Watteau was a French painter who typified the lyrically charming and graceful style of the Rococo. He emphasized color and movement, structuring his compositions so that they almost resembled theater scenes, but it was the atmospheric quality of his work. \n Crozat had a great collection of Italian and Flemish paintings and drawings. He also painted the gardens and the countrysides surrounding the villa at Montmorency. His adoration of the present and its refined modernity, and fashion bordered on frivolousness. On the other hand, he rejected every form of picturesque realism. \n Watteau belonged to a period of reaction against the classicism of the preceding era, in which division of the arts and of the separation of styles had been strictly observed. An attempt was thus made to ennoble the genres previously considered inferior (farce, improvised comedy, the novel).",
+    "YearsOfLife": "(born October 10, 1684 — died July 18, 1721)",
+    "Paintings": [
+      {
+        "Title": "Pleasures of Love",
+        "ArtistName": "Jean-Antoine Watteau",
+        "CreationYear": "1718–1719",
+        "FilePath": "/Files/Data/Paintings/PleasuresOfLove.jpg"
+      },
+      {
+        "Title": "The Embarkation for Cythera",
+        "ArtistName": "Jean-Antoine Watteau",
+        "CreationYear": "1717",
+        "FilePath": "/Files/Data/Paintings/TheEmbarkationForCythera.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Eugene Delacroix",
+    "Country": "France",
+    "Biography": "Eugène Delacroix was one of the greatest French Romantic painters, whose use of color was influential in the development of both Impressionist and Post-Impressionist painting. His inspiration came chiefly from historical or contemporary events or literature, and a visit to Morocco in 1832 provided him with further subjects. \n A leading figure of Romanticism—which privileged emotions over rationalism—Delacroix’s expressive paint handling and use of color laid the foundation for successive avant-garde movements of the 1800s and beyond. \n Early in his career, Delacroix had been hailed by the young French romantics as their leader. In 1830 he painted Liberty Leading the People to commemorate the July Revolution that brought Louis-Philippe to the French throne.",
+    "YearsOfLife": "(born April 26, 1798 — died August 13, 1863)",
+    "Paintings": [
+      {
+        "Title": "Liberty Leading the People",
+        "ArtistName": "Eugene Delacroix",
+        "CreationYear": "1830",
+        "FilePath": "/Files/Data/Paintings/LibertyLeadingThePeople.jpg"
+      },
+      {
+        "Title": "Convulsionists of Tangiers",
+        "ArtistName": "Eugene Delacroix",
+        "CreationYear": "1838",
+        "FilePath": "/Files/Data/Paintings/ConvulsionistsOfTangiers.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Claude Monet",
+    "Country": "France",
+    "Biography": "Claude Monet was a French painter who became the initiator, leader, and unswerving advocate of the Impressionist style. In his mature works, Monet developed his method of producing repeated studies of the same motif in series, changing canvases with the light or as his interest shifted. Monet’s painting was an utterly contemporary yet unprovocative representation of a group of fashionably dressed picnickers in the forest of Fontainebleau. \nMonet’s first success as an artist came when he was 15, with the sale of caricatures that were carefully observed and well drawn. Besides the cathedral, Monet painted several things repeatedly, trying to convey the sensation of a certain time of day on a landscape or a place. \nUnlike landscape artists of old Monet favored using light colors as a base for his painting instead of the traditional dark primers. Monet's personal Impressionist ability is said to have reached its peak with his Giverny-inspired series of paintings of Water Lilies.",
+    "YearsOfLife": "(born November 14, 1840 — died December 5, 1926)",
+    "Paintings": [
+      {
+        "Title": "Impression, Sunrise",
+        "ArtistName": "Claude Monet",
+        "CreationYear": "1873",
+        "FilePath": "/Files/Data/Paintings/ImpressionSunrise.jpg"
+      },
+      {
+        "Title": "Water Lilies",
+        "ArtistName": "Claude Monet",
+        "CreationYear": "1906",
+        "FilePath": "/Files/Data/Paintings/WaterLilies.jpg"
+      },
+      {
+        "Title": "Springtime",
+        "ArtistName": "Claude Monet",
+        "CreationYear": "1872",
+        "FilePath": "/Files/Data/Paintings/Springtime.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Edvard Munch",
+    "Country": "Norway",
+    "Biography": "Edvard Munch was a Norwegian painter and printmaker whose intensely evocative treatment of psychological themes built upon some of the main tenets of late 19th-century Symbolism and greatly influenced German Expressionism in the early 20th century. \n The violent emotion and unconventional imagery of his paintings, especially their daringly frank representations of sexuality, created a bitter controversy. Critics were also offended by his innovative technique, which to most appeared unfinished. \n His art also had evident affinities with the poetry and drama of his day. Munch was a leader in the revolt against the naturalistic dictates of 19th-century academic painting and also went beyond the naturalism still inherent in Impressionism. His concentration on emotional essentials sometimes led to radical simplifications of form and an expressive, rather than descriptive, use of color. \n Munch was heir to the traditional mysticism and anxiety of northern European painting, which he re-created in a highly personal art of the archetypal and symbolic. His work continues to speak to the typically modern situation of the individual facing the uncertainty of a rapidly changing contemporary world.",
+    "YearsOfLife": "(born December 12, 1863 — died January 23, 1944)",
+    "Paintings": [
+      {
+        "Title": "The Scream",
+        "ArtistName": "Edvard Munch",
+        "CreationYear": "1895",
+        "FilePath": "/Files/Data/Paintings/TheScream.jpg"
+      },
+      {
+        "Title": "Landscape with Trees and Water",
+        "ArtistName": "Edvard Munch",
+        "CreationYear": "1880",
+        "FilePath": "/Files/Data/Paintings/LandscapeWithTreesAndWater.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Gustav Klimt",
+    "Country": "Austria",
+    "Biography": "Gustav Klimt was an Austrian painter, founder of the school of painting known as the Vienna Sezession. In 1897 Klimt’s mature style emerged, and he founded the Vienna Sezession, a group of painters who revolted against academic art. Although primarily rejecting classical, academic art, the group did not focus on any one particular style, instead focusing its efforts on supporting young nontraditional artists, bringing international art to Vienna and exhibiting the works of its members. \n For many years the artist traveled to the Austrian and Italian countryside during the summer, where he took advantage of the extraordinary light and spectacular hues. Among the most exquisite of Klimt's landscapes are those in which he experimented with composition and style; many of them reveal the influence of his contemporaries.",
+    "YearsOfLife": "(born July 14, 1862 — died February 6, 1918)",
+    "Paintings": [
+      {
+        "Title": "Portrait of pianist Joseph Pembauer",
+        "ArtistName": "Gustav Klimt",
+        "CreationYear": "1890 ",
+        "FilePath": "/Files/Data/Paintings/PortraitOfPianistJosephPembauer.jpeg"
+      },
+      {
+        "Title": "The Kiss",
+        "ArtistName": "Gustav Klimt",
+        "CreationYear": "1907–1908",
+        "FilePath": "/Files/Data/Paintings/TheKiss.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Pablo Picasso",
+    "Country": "Spain",
+    "Biography": "Pablo Picasso was a Spanish expatriate painter, sculptor, printmaker, ceramicist, and stage designer. He was one of the greatest and most-influential artists of the 20th century and the creator of Cubism. \nFor nearly 80 of his 91 years, Picasso devoted himself to an artistic production that contributed significantly to and paralleled the whole development of modern art in the 20th century.\nAt the age of only 21, the young artist found himself poor and depressed. He restricted his palette to cold, sombre colors that evoked dreamlike mystery and sorrow. Living between Barcelona and Paris, Picasso painted powerful portraits of his friends, as well as the poor and abandoned, to explore the themes of human misery and social alienation that weighed upon him so heavily during these years. \nPicasso’s Rose Period began once he had fully settled in Montmartre and was living at the Bateau-Lavoir among other bohemian artists and writers. While the Blue Period was characterized by loneliness and grief, the Rose Period possesses a haunting poetry, with a cast of harlequins, acrobats and circus performers depicted in vivid earth tones, pinks, reds, and oranges.",
+    "YearsOfLife": "(born October 25, 1881 — died April 8, 1973)",
+    "Paintings": [
+      {
+        "Title": "Self-Portrait",
+        "ArtistName": "Pablo Picasso",
+        "CreationYear": "1901",
+        "FilePath": "/Files/Data/Paintings/Self-PortraitOfPabloPicaso.jpg"
+      },
+      {
+        "Title": "Girl Before A Mirror",
+        "ArtistName": "Pablo Picasso",
+        "CreationYear": "1932",
+        "FilePath": "/Files/Data/Paintings/GirlBeforeAMirror.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Henri Matisse",
+    "Country": "France",
+    "Biography": "Henri Matisse was an artist often regarded as the most important French painter of the 20th century. He was the leader of the Fauvist movement about 1900, and he pursued the expressiveness of color throughout his career.\nHe himself was for the moment a provincial with tastes that were old-fashioned in a Paris already familiar with the Post-Impressionism of Paul Cézanne, Paul Gauguin, and Vincent van Gogh. His earliest canvases are in the 17th-century Dutch manner favoured by the French Realists of the 1850s.\nIn Matisse’s mature painting style, the forms tend to be outlined in flowing, heavy contours and to have few interior details; the color is laid on in large, thin, luminous, carefully calculated patches; shadows are practically eliminated; and the depicted space is either extremely shallow or warped into a flatness. \nLike many of the painters and composers during the early 1920s, Matisse relaxed into a modernized sort of classicism. Also he had been interested in etching, drypoint, lithography, and allied printmaking techniques since his first years in Paris and had produced a number of occasional prints.",
+    "YearsOfLife": "(born December 31, 1869 — died November 3, 1954)",
+    "Paintings": [
+      {
+        "Title": "The Green Stripe",
+        "ArtistName": "Henri Matisse",
+        "CreationYear": "1905",
+        "FilePath": "/Files/Data/Paintings/TheGreenStripe.jpeg"
+      },
+      {
+        "Title": "Dance II",
+        "ArtistName": "Henri Matisse",
+        "CreationYear": "1910",
+        "FilePath": "/Files/Data/Paintings/Dance(II).jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Rene Magritte",
+    "Country": "Belgium",
+    "Biography": "René Magritte was a Belgian artist, one of the most prominent Surrealist painters, whose bizarre flights of fancy blended horror, peril, comedy, and mystery. His works were characterized by particular symbols—the female torso, the bourgeois “little man,” the bowler hat, the apple, the castle, the rock, the window, and other ordinary objects, which were often set in unusual or unsettling situations. \nDuring the 1940s Magritte experimented with a variety of styles, sometimes incorporating elements of Impressionism, for example, in what has come to be called his “Renoir Period.” The paintings he produced in this period, however, were not successful by most accounts, and he eventually abandoned his experiments. For the rest of his life he continued to produce his enigmatic and illogical images in a readily identifiable style. In his last year he supervised the construction of eight bronze sculptures derived from images in his paintings.",
+    "YearsOfLife": "(born November 21, 1898 — died August 15, 1967)",
+    "Paintings": [
+      {
+        "Title": "The Son of Man",
+        "ArtistName": "Rene Magritte",
+        "CreationYear": "1964",
+        "FilePath": "/Files/Data/Paintings/TheSonOfMan.jpg"
+      },
+      {
+        "Title": "The Lovers II",
+        "ArtistName": "Rene Magritte",
+        "CreationYear": "1928",
+        "FilePath": "/Files/Data/Paintings/TheLovers(II).jpg"
+      },
+      {
+        "Title": "Golconda",
+        "ArtistName": "Rene Magritte",
+        "CreationYear": "1953",
+        "FilePath": "/Files/Data/Paintings/Golconda.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Salvador Dalí",
+    "Country": "Spain",
+    "Biography": "Salvador Dali was a Spanish Surrealist painter and printmaker, influential for his explorations of subconscious imagery. \nFrom 1929 to 1937 he produced the paintings which made him the world’s best-known Surrealist artist. Dalí depicted a dreamworld in which commonplace objects are juxtaposed, deformed, or otherwise metamorphosed in a bizarre and irrational fashion. He portrayed those objects in meticulous, almost painfully realistic detail and usually placed them within bleak sunlit landscapes that were reminiscent of his Catalonian homeland. \nIn the late 1930s Dalí switched to painting in a more-academic style under the influence of the Renaissance painter Raphael. His ambivalent political views during the rise of fascism alienated his Surrealist colleagues, and he was eventually expelled from the group.",
+    "YearsOfLife": "(born May 11, 1904 — died January 23, 1989)",
+    "Paintings": [
+      {
+        "Title": "The Madonna of Port Lligat",
+        "ArtistName": "Salvador Dalí",
+        "CreationYear": "1949",
+        "FilePath": "/Files/Data/Paintings/TheMadonnaOfPortLligat.jpg"
+      },
+      {
+        "Title": "The Persistence of Memory",
+        "ArtistName": "Salvador Dalí",
+        "CreationYear": "1931",
+        "FilePath": "/Files/Data/Paintings/ThePersistenceOfMemory.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Edward Hopper",
+    "Country": "USA",
+    "Biography": "Edward Hopper was an American painter whose realistic depictions of everyday urban scenes shock the viewer into recognition of the strangeness of familiar surroundings. He strongly influenced the Pop art and New Realist painters of the 1960s and 1970s. \nHopper was initially trained as an illustrator, but, between 1901 and 1906, he studied painting under Robert Henri, a member of a group of painters called the Ashcan School.  Like the painters of the Ashcan School, Hopper painted the commonplaces of urban life. But, unlike their loosely organized, vivacious paintings, his House by the Railroad (1925) and Room in Brooklyn (1932) show still, anonymous figures and stern geometric forms within snapshot-like compositions that create an inescapable sense of loneliness. Hopper’s mature style was already formed by the mid-1920s. \nHis subsequent development showed a constant refinement of his vision.",
+    "YearsOfLife": "(born July 22, 1882 — died May 15, 1967)",
+    "Paintings": [
+      {
+        "Title": "Automat",
+        "ArtistName": "Edward Hopper",
+        "CreationYear": "1927",
+        "FilePath": "/Files/Data/Paintings/Automat.jpg"
+      },
+      {
+        "Title": "Nighthawks",
+        "ArtistName": "Edward Hopper",
+        "CreationYear": "1942",
+        "FilePath": "/Files/Data/Paintings/Nighthawks.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Frida Kahlo",
+    "Country": "Mexico",
+    "Biography": "Frida Kahlo was a Mexican painter best known for her uncompromising and brilliantly coloured self-portraits that deal with such themes as identity, the human body, and death. Although she denied the connection, she is often identified as a Surrealist. \n The artist's style is heterogeneous, that is to say, it is composed of several different styles, mixed together and producing a unique, original painting whose strength and grandeur resonate to us. The style is always figurative in the Frida Kahlo paintings. Frida painted her reality, the elements and composition are irrational, strange and magical. \nThe artist's favorite technique is undoubtedly the self-portrait. Kahlo painted 55 self-portraits out of a total of 143 paintings. Her autobiographical and narrative style is unique: all her paintings tell of her own life, her loves, her difficulties, her fears and her past.",
+    "YearsOfLife": "(born July 6, 1907 — died July 13, 1954)",
+    "Paintings": [
+      {
+        "Title": "Self-Portrait with Monkey",
+        "ArtistName": "Frida Kahlo",
+        "CreationYear": "1938",
+        "FilePath": "/Files/Data/Paintings/Self-PortraitWithMonkey.jpg"
+      },
+      {
+        "Title": "The Two Fridas",
+        "ArtistName": "Frida Kahlo",
+        "CreationYear": "1939",
+        "FilePath": "/Files/Data/Paintings/TheTwoFridas.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Élisabeth Vigée-Lebrun",
+    "Country": "France",
+    "Biography": "Élisabeth Vigée-Lebrun was a French painter, one of the most successful women artists (unusually so for her time), particularly noted for her portraits of women. \nVigée-Lebrun painted more than 20 portraits of Marie-Antoinette in a great variety of poses and costumes. She also painted a great number of self-portraits, in the style of various artists whose work she admired. \n Vigée Le Brun was particularly praised for her sympathetic portraits of aristocratic women, deemed more natural than the works of her contemporaries. During her career, according to her own account, she painted 900 pictures, including some 600 portraits and about 200 landscapes.",
+    "YearsOfLife": "(born April 16, 1755 — died March 30, 1842)",
+    "Paintings": [
+      {
+        "Title": "Self-Portrait in a Straw Hat",
+        "ArtistName": "Élisabeth Vigée-Lebrun",
+        "CreationYear": "1782",
+        "FilePath": "/Files/Data/Paintings/Self-PortraitInAStrawHat.jpg"
+      },
+      {
+        "Title": "Jeanne Bécu",
+        "ArtistName": "Élisabeth Vigée-Lebrun",
+        "CreationYear": "1743",
+        "FilePath": "/Files/Data/Paintings/JeanneBecu.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Mary Cassatt",
+    "Country": "USA",
+    "Biography": "Mary Cassatt was an American painter and printmaker who was part of the group of Impressionists working in and around Paris. She took as her subjects almost exclusively the intimate lives of contemporary women, especially in their roles as the caretakers of children. \nIn 1874 Cassatt chose Paris as her permanent residence and established her studio there. She shared with the Impressionists an interest in experiment and in using bright colors inspired by the out-of-doors. Cassatt painted mostly figures of friends or relatives and their children in the Impressionist style. \n Her modern woman is expertly rendered in the 1878 painting In the Loge, the first Impressionist work the artist exhibited in the United States. Many male artists depicted women in theater boxes as objects of display, but Cassatt's female protagonist plays a dynamic role engaged in the act of looking. Nonetheless, the male gaze prevails, as in the distance, a gray-haired theatergoer stares directly at her with his own binoculars.",
+    "YearsOfLife": "(born May 22, 1844 — died June 14, 1926)",
+    "Paintings": [
+      {
+        "Title": "Little Girl in a Blue Armchair",
+        "ArtistName": "Mary Cassatt",
+        "CreationYear": "1878",
+        "FilePath": "/Files/Data/Paintings/LittleGirlInABlueArmchair.jpg"
+      },
+      {
+        "Title": "In the Loge",
+        "ArtistName": "Mary Cassatt",
+        "CreationYear": "1880",
+        "FilePath": "/Files/Data/Paintings/InTheLoge.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Leonora Carrington",
+    "Country": "England",
+    "Biography": "Leonora Carrington was an English-born Mexican Surrealist artist and writer known for her haunting, autobiographical, somewhat inscrutable paintings that incorporate images of sorcery, metamorphosis, alchemy, and the occult. \nImages of domesticity and motherhood—tinged with magic and sorcery—began to appear in her work in 1946 when she married Hungarian photographer Emerico Weisz. Her highly autobiographical paintings feature references to sorcery, metamorphosis, and the occult, depicting fantastical creatures and haunting scenes.",
+    "YearsOfLife": "(born April 6, 1917 — died May 25, 2011)",
+    "Paintings": [
+      {
+        "Title": "Green Tea",
+        "ArtistName": "Leonora Carrington",
+        "CreationYear": "1942",
+        "FilePath": "/Files/Data/Paintings/GreenTea.jpg"
+      },
+      {
+        "Title": "Neighbourly Advice",
+        "ArtistName": "Leonora Carrington",
+        "CreationYear": "1947",
+        "FilePath": "/Files/Data/Paintings/NeighbourlyAdvice.jpg"
+      }
+    ]
+  },
+  {
+    "Name": "Artemisia Gentileschi",
+    "Country": "Italy",
+    "Biography": "Artemisia Gentileschi was an Italian painter, daughter of Orazio Gentileschi, who was a major follower of the revolutionary Baroque painter Caravaggio. She was an important second-generation proponent of Caravaggio’s dramatic realism. \nIn an era dominated by male artists, Gentileschi challenged social conventions with her extraordinary talent. Her unique portrayal of strong and independent women in her artworks captivated the public and paved the way for future generations. \nUnlike many other women artists of the 17th century, she specialized in history painting rather than still life and portraiture. ",
+    "YearsOfLife": "(born July 8, 1593 — died 1653)",
+    "Paintings": [
+      {
+        "Title": "Madonna and Child",
+        "ArtistName": "Artemisia Gentileschi",
+        "CreationYear": "1610-1611",
+        "FilePath": "/Files/Data/Paintings/MadonnaAndChild.jpg"
+      },
+      {
+        "Title": "Self-Portrait as a Lute Player",
+        "ArtistName": "Artemisia Gentileschi",
+        "CreationYear": "1616-1618",
+        "FilePath": "/Files/Data/Paintings/Self-PortraitAsALutePlayer.JPG"
+      }
+    ]
+  },
+  {
+    "Name": "Georgia O'Keeffe",
+    "Country": "USA",
+    "Biography": "Georgia O’Keeffe was an American painter who was among the most influential figures in Modernism, best known for her large-format paintings of natural subjects, especially flowers and bones, and for her depictions of New York City skyscrapers and architectural and landscape forms unique to northern New Mexico. \n While she never abandoned Modernist abstraction as the underlying principle in her work, by the mid-1920s she had shifted its emphasis to redefine herself as a painter of recognizable forms, by which she remains best known today. Her subsequent depictions of recognizable subject matter were replete with abstract shapes, including ovals, hooked or V-shapes, and spirals.",
+    "YearsOfLife": "(born November 15, 1887 — died March 6, 1986)",
+    "Paintings": [
+      {
+        "Title": "Red Canna",
+        "ArtistName": "Georgia O'Keeffe",
+        "CreationYear": "1915–1923",
+        "FilePath": "/Files/Data/Paintings/RedCanna.jpg"
+      },
+      {
+        "Title": "Pineapple Bud",
+        "ArtistName": "Georgia O'Keeffe",
+        "CreationYear": "1939",
+        "FilePath": "/Files/Data/Paintings/PineappleBud.jpg"
+      }
+    ]
+  }
+]

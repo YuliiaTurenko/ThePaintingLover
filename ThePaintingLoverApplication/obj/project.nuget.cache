@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GV93QNk/33u8kWTgY62pbIKfNVCEagcObLrW5NgSt5UjGebCA96s0Sz/z0uP6hXLw3hcauYUDT27QdOYKKLBjg==",
+  "success": true,
+  "projectFilePath": "D:\\Solution\\ThePaintingLoverApplication\\ThePaintingLoverApplication\\ThePaintingLoverApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\38097\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,220 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Files\Data\artists.json" />
+    <None Remove="Files\Data\Paintings\Automat.jpg" />
+    <None Remove="Files\Data\Paintings\ConvulsionistsOfTangiers.jpg" />
+    <None Remove="Files\Data\Paintings\Dance%28II%29.jpg" />
+    <None Remove="Files\Data\Paintings\GirlBeforeAMirror.jpg" />
+    <None Remove="Files\Data\Paintings\GirlWithPearlEaring.jpg" />
+    <None Remove="Files\Data\Paintings\Golconda.jpg" />
+    <None Remove="Files\Data\Paintings\GreenTea.jpg" />
+    <None Remove="Files\Data\Paintings\ImpressionSunrise.jpg" />
+    <None Remove="Files\Data\Paintings\InTheLoge.jpg" />
+    <None Remove="Files\Data\Paintings\JeanneBecu.jpg" />
+    <None Remove="Files\Data\Paintings\LadyPaintingLetterWithHerMaid.jpg" />
+    <None Remove="Files\Data\Paintings\LadyWithAnErmine.jpg" />
+    <None Remove="Files\Data\Paintings\LandscapeWithTreesAndWater.jpg" />
+    <None Remove="Files\Data\Paintings\LibertyLeadingThePeople.jpg" />
+    <None Remove="Files\Data\Paintings\LittleGirlInABlueArmchair.jpg" />
+    <None Remove="Files\Data\Paintings\MadonnaAndChild.jpg" />
+    <None Remove="Files\Data\Paintings\MonaLisa.jpg" />
+    <None Remove="Files\Data\Paintings\NeighbourlyAdvice.jpg" />
+    <None Remove="Files\Data\Paintings\Nighthawks.jpg" />
+    <None Remove="Files\Data\Paintings\PineappleBud.jpg" />
+    <None Remove="Files\Data\Paintings\PleasuresOfLove.jpg" />
+    <None Remove="Files\Data\Paintings\PortraitOfAMusician.jpg" />
+    <None Remove="Files\Data\Paintings\PortraitOfPianistJosephPembauer.jpeg" />
+    <None Remove="Files\Data\Paintings\PortretOfTheo.jpg" />
+    <None Remove="Files\Data\Paintings\RedCanna.jpg" />
+    <None Remove="Files\Data\Paintings\Self-PortraitAsALutePlayer.JPG" />
+    <None Remove="Files\Data\Paintings\Self-PortraitInAStrawHat.jpg" />
+    <None Remove="Files\Data\Paintings\Self-PortraitOfPabloPicaso.jpg" />
+    <None Remove="Files\Data\Paintings\Self-PortraitWithMonkey.jpg" />
+    <None Remove="Files\Data\Paintings\Springtime.jpg" />
+    <None Remove="Files\Data\Paintings\StarryNightOverTheRhone.jpg" />
+    <None Remove="Files\Data\Paintings\TheAnatomyLessonOfDrNicolaesTulp.jpg" />
+    <None Remove="Files\Data\Paintings\TheCreationOfAdam.jpg" />
+    <None Remove="Files\Data\Paintings\TheCrucifixionOfSaintPeter.jpg" />
+    <None Remove="Files\Data\Paintings\TheEmbarkationForCythera.jpg" />
+    <None Remove="Files\Data\Paintings\TheGreenStripe.jpeg" />
+    <None Remove="Files\Data\Paintings\TheKiss.jpg" />
+    <None Remove="Files\Data\Paintings\TheLovers%28II%29.jpg" />
+    <None Remove="Files\Data\Paintings\TheMadonnaOfPortLligat.jpg" />
+    <None Remove="Files\Data\Paintings\ThePersistenceOfMemory.jpg" />
+    <None Remove="Files\Data\Paintings\TheScream.jpg" />
+    <None Remove="Files\Data\Paintings\TheSonOfMan.jpg" />
+    <None Remove="Files\Data\Paintings\TheStormOnTheLakeOfGalilee.jpg" />
+    <None Remove="Files\Data\Paintings\TheTormentOfSaintAnthony.jpg" />
+    <None Remove="Files\Data\Paintings\TheTwoFridas.jpg" />
+    <None Remove="Files\Data\Paintings\VaseWithTwelveSunflowers.jpg" />
+    <None Remove="Files\Data\Paintings\WaterLilies.jpg" />
+    <None Remove="Files\Data\styles.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Files\Data\artists.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\Automat.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\ConvulsionistsOfTangiers.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\Dance(II).jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\GirlBeforeAMirror.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\GirlWithPearlEaring.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\Golconda.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\GreenTea.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\ImpressionSunrise.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\InTheLoge.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\JeanneBecu.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\LadyPaintingLetterWithHerMaid.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\LadyWithAnErmine.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\LandscapeWithTreesAndWater.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\LibertyLeadingThePeople.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\LittleGirlInABlueArmchair.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\MadonnaAndChild.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\MonaLisa.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\NeighbourlyAdvice.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\Nighthawks.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\PineappleBud.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\PleasuresOfLove.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\PortraitOfAMusician.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\PortraitOfPianistJosephPembauer.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\PortretOfTheo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\RedCanna.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\Self-PortraitAsALutePlayer.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\Self-PortraitInAStrawHat.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\Self-PortraitOfPabloPicaso.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\Self-PortraitWithMonkey.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\Springtime.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\StarryNightOverTheRhone.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\TheAnatomyLessonOfDrNicolaesTulp.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\TheCreationOfAdam.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\TheCrucifixionOfSaintPeter.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\TheEmbarkationForCythera.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\TheGreenStripe.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\TheKiss.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\TheLovers(II).jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\TheMadonnaOfPortLligat.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\ThePersistenceOfMemory.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\TheScream.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\TheSonOfMan.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\TheStormOnTheLakeOfGalilee.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\TheTormentOfSaintAnthony.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\TheTwoFridas.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\VaseWithTwelveSunflowers.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\Paintings\WaterLilies.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\Data\styles.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\starry-night.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

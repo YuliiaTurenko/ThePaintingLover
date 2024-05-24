@@ -1,0 +1,85 @@
+[
+  {
+    "Username": "juju",
+    "Email": "jujuju@gmail.com",
+    "Password": "1212",
+    "FavoritePaintings": [],
+    "Notes": []
+  },
+  {
+    "Username": "gege",
+    "Email": "gegeg@gmail.com",
+    "Password": "1345",
+    "FavoritePaintings": [],
+    "Notes": []
+  },
+  {
+    "Username": "fff",
+    "Email": "fff",
+    "Password": "fff",
+    "FavoritePaintings": [
+      {
+        "Title": "Lady Writing a Letter with her Maid",
+        "ArtistName": "Vermeer",
+        "CreationYear": "1670",
+        "FilePath": "/Files/Data/Paintings/LadyPaintingLetterWithHerMaid.jpg"
+      },
+      {
+        "Title": "Self-Portrait in a Straw Hat",
+        "ArtistName": "\u00C9lisabeth Vig\u00E9e-Lebrun",
+        "CreationYear": "1782",
+        "FilePath": "/Files/Data/Paintings/Self-PortraitInAStrawHat.jpg"
+      },
+      {
+        "Title": "Springtime",
+        "ArtistName": "Claude Monet",
+        "CreationYear": "1872",
+        "FilePath": "/Files/Data/Paintings/Springtime.jpg"
+      }
+    ],
+    "Notes": [
+      {
+        "Title": "crazy frog",
+        "Content": "i\u0027m tired",
+        "Created": "2024-05-23T17:50:28.1325441+03:00"
+      },
+      {
+        "Title": "fff",
+        "Content": "fff",
+        "Created": "2024-05-23T22:21:08.4802375+03:00"
+      }
+    ]
+  },
+  {
+    "Username": "Mila",
+    "Email": "mila@gmail",
+    "Password": "1111",
+    "FavoritePaintings": [
+      {
+        "Title": "Self-Portrait in a Straw Hat",
+        "ArtistName": "\u00C9lisabeth Vig\u00E9e-Lebrun",
+        "CreationYear": "1782",
+        "FilePath": "/Files/Data/Paintings/Self-PortraitInAStrawHat.jpg"
+      },
+      {
+        "Title": "Starry Night Over the Rh\u00F4ne",
+        "ArtistName": "Vincent van Gogh",
+        "CreationYear": "1888",
+        "FilePath": "/Files/Data/Paintings/StarryNightOverTheRhone.jpg"
+      },
+      {
+        "Title": "Still Life: Vase with Twelve Sunflowers",
+        "ArtistName": "Vincent van Gogh",
+        "CreationYear": "1888",
+        "FilePath": "/Files/Data/Paintings/VaseWithTwelveSunflowers.jpg"
+      }
+    ],
+    "Notes": [
+      {
+        "Title": "lala",
+        "Content": "i want to sleep",
+        "Created": "2024-05-23T21:46:17.0159429+03:00"
+      }
+    ]
+  }
+]
