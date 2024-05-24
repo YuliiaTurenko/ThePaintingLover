@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Solution\\ThePaintingLoverApplication\\ThePaintingLoverApplication\\ThePaintingLoverApplication.csproj": {}
+    "D:\\Solution\\ThePaintingLover\\ThePaintingLoverApplication\\ThePaintingLoverApplication.csproj": {}
   },
   "projects": {
-    "D:\\Solution\\ThePaintingLoverApplication\\ThePaintingLoverApplication\\ThePaintingLoverApplication.csproj": {
+    "D:\\Solution\\ThePaintingLover\\ThePaintingLoverApplication\\ThePaintingLoverApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Solution\\ThePaintingLoverApplication\\ThePaintingLoverApplication\\ThePaintingLoverApplication.csproj",
+        "projectUniqueName": "D:\\Solution\\ThePaintingLover\\ThePaintingLoverApplication\\ThePaintingLoverApplication.csproj",
         "projectName": "ThePaintingLoverApplication",
-        "projectPath": "D:\\Solution\\ThePaintingLoverApplication\\ThePaintingLoverApplication\\ThePaintingLoverApplication.csproj",
+        "projectPath": "D:\\Solution\\ThePaintingLover\\ThePaintingLoverApplication\\ThePaintingLoverApplication.csproj",
         "packagesPath": "C:\\Users\\38097\\.nuget\\packages\\",
-        "outputPath": "D:\\Solution\\ThePaintingLoverApplication\\ThePaintingLoverApplication\\obj\\",
+        "outputPath": "D:\\Solution\\ThePaintingLover\\ThePaintingLoverApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
