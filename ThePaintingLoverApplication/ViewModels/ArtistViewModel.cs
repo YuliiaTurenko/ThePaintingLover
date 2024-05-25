@@ -1,6 +1,4 @@
-﻿using System.Reflection.Metadata;
-using System.Windows.Input;
-using System.Windows.Media;
+﻿using System.Windows.Input;
 using ThePaintingLoverApplication.Models;
 using ThePaintingLoverApplication.Services;
 using ThePaintingLoverApplication.Stores;
@@ -42,7 +40,7 @@ namespace ThePaintingLoverApplication.ViewModels
         {
             if (parameter is Painting painting)
             {
-                if (_user.IsFavorite(painting))
+                if (_user.IsFavoritePainting(painting))
                 {
                     _user.FavoritePaintings.Remove(painting);
                 }
@@ -52,13 +50,7 @@ namespace ThePaintingLoverApplication.ViewModels
                 }
                 _userDataService.UpdateUserData(_user);
                 OnPropertyChanged(nameof(Paintings));
-                OnPropertyChanged(nameof(GetFavoriteButtonColor));
             }
-        }
-
-        public Brush GetFavoriteButtonColor(Painting painting)
-        {
-            return _user.IsFavorite(painting) ? Brushes.PaleGreen : Brushes.BlanchedAlmond;
         }
     }
 }

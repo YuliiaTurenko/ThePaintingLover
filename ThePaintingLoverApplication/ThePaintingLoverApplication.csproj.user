@@ -10,6 +10,9 @@
     <Compile Update="Views\ArtistView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\EditNoteWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\EntryView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -43,6 +46,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\ArtistView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EditNoteWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\EntryView.xaml">

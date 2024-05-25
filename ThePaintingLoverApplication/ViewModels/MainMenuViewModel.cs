@@ -100,8 +100,10 @@ namespace ThePaintingLoverApplication.ViewModels
             {
                 if (artist.Name.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase) ||
                     artist.Country.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase) ||
+                    artist.YearsOfLife.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase) ||
                     artist.Biography.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase) ||
-                    artist.Paintings.Any(p => p.Title.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase)))
+                    artist.Paintings.Any(p => p.Title.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase) || 
+                    p.CreationYear.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase)))
                 {
                     results.Add(artist.Name);
                 }
@@ -109,6 +111,7 @@ namespace ThePaintingLoverApplication.ViewModels
             foreach (var style in styles)
             {
                 if (style.Name.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase) ||
+                style.YearsOfExistence.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase) ||
                 style.Description.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase))
                 {
                     results.Add(style.Name);

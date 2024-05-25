@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Solution\ThePaintingLoverApplication\ThePaintingLoverApplication\obj\Debug\net7.0-windows\
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\
 ThePaintingLoverApplication
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-D:\Solution\ThePaintingLoverApplication\ThePaintingLoverApplication\App.xaml
-11-2106400053
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\App.xaml
+1268702373
 50-428937514
-36-1218909387
+38-2105544002
 199473384696
-MainWindow.xaml;Views\ArtistView.xaml;Views\EntryView.xaml;Views\FavoritePaintingsView.xaml;Views\ListOfArtistsView.xaml;Views\ListOfStylesView.xaml;Views\LoginView.xaml;Views\MainMenu.xaml;Views\NotesView.xaml;Views\RegistrationView.xaml;Views\StyleView.xaml;
+MainWindow.xaml;Views\ArtistView.xaml;Views\EditNoteWindow.xaml;Views\EntryView.xaml;Views\FavoritePaintingsView.xaml;Views\ListOfArtistsView.xaml;Views\ListOfStylesView.xaml;Views\LoginView.xaml;Views\MainMenu.xaml;Views\NotesView.xaml;Views\RegistrationView.xaml;Views\StyleView.xaml;
 
 False
 

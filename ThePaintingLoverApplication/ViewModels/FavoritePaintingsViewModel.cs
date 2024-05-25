@@ -1,4 +1,5 @@
-﻿using System.Windows.Input;
+﻿using System.Windows.Data;
+using System.Windows.Input;
 using System.Windows.Media;
 using ThePaintingLoverApplication.Models;
 using ThePaintingLoverApplication.Services;
@@ -16,8 +17,8 @@ namespace ThePaintingLoverApplication.ViewModels
         public FavoritePaintingsViewModel(NavigationStore navigationStore, User currentUser)
         {
             _navigationStore = navigationStore;
-            _favoritePaintings = currentUser.FavoritePaintings;
             _user = currentUser;
+            _favoritePaintings = currentUser.FavoritePaintings;
             _userDataService = new UserDataService();
             OpenMainMenuCommand = new RelayCommand(ExecuteMainMenu);
             ToggleFavoriteCommand = new RelayCommand(ToggleFavorite);
@@ -37,7 +38,7 @@ namespace ThePaintingLoverApplication.ViewModels
         {
             if (parameter is Painting painting)
             {
-                if (_user.IsFavorite(painting))
+                if (_user.IsFavoritePainting(painting))
                 {
                     _favoritePaintings.Remove(painting);
                 }
@@ -47,13 +48,8 @@ namespace ThePaintingLoverApplication.ViewModels
                 }
                 _userDataService.UpdateUserData(_user);
                 OnPropertyChanged(nameof(FavoritePaintings));
-                OnPropertyChanged(nameof(GetFavoriteButtonColor));
+                CollectionViewSource.GetDefaultView(FavoritePaintings).Refresh();
             }
-        }
-
-        public Brush GetFavoriteButtonColor(Painting painting)
-        {
-            return _user.IsFavorite(painting) ? Brushes.PaleGreen : Brushes.BlanchedAlmond;
         }
     }
 }

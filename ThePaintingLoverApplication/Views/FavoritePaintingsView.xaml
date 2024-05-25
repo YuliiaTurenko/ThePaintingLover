@@ -43,7 +43,7 @@
                                 Content="Favorite"
                                 Width="54"
                                 Foreground="#FF2D0355"
-                                Background="{Binding RelativeSource={RelativeSource AncestorType=UserControl}, Path=DataContext.GetFavoriteButtonColor}"
+                                Background="BlanchedAlmond"
                                 Command="{Binding DataContext.ToggleFavoriteCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
                                 CommandParameter="{Binding}"/>
                         </StackPanel>

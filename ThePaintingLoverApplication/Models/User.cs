@@ -19,7 +19,7 @@ namespace ThePaintingLoverApplication.Models
             Notes = new List<Note>();
         }
 
-        public bool IsFavorite(Painting painting)
+        public bool IsFavoritePainting(Painting painting)
         {
             return FavoritePaintings.Any(p => p.Title == painting.Title);
         }

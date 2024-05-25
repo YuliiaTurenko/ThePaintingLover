@@ -58,6 +58,7 @@
             VerticalContentAlignment="Center"
             HorizontalAlignment="Left"
             Margin="20"
+            MaxLength="50"
             Background="LightYellow"
             Text="{Binding SearchQuery, UpdateSourceTrigger=PropertyChanged}"/>
 

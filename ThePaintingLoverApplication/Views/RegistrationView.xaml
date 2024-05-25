@@ -28,6 +28,7 @@
 
             <TextBlock Grid.Row="0" Text="Name" Style="{StaticResource MediumText}"/>
             <TextBox
+                MaxLength="40"
                 Grid.Row="1"
                 Margin="0 5 0 0"
                 Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" />
@@ -41,6 +42,7 @@
 
             <TextBlock Grid.Row="0" Text="E-mail" Style="{StaticResource MediumText}"/>
             <TextBox
+                MaxLength="60"
                 Grid.Row="1"
                 Margin="0 5 0 0"
                 Text="{Binding EmailToSignup, UpdateSourceTrigger=PropertyChanged}"/>
@@ -54,6 +56,7 @@
 
             <TextBlock Grid.Row="0" Text="Password" Style="{StaticResource MediumText}"/>
             <TextBox 
+                MaxLength="30"
                 Grid.Row="1"
                 Margin="0 5 0 0"
                 Text="{Binding PasswordToSignup, UpdateSourceTrigger=PropertyChanged}"/>

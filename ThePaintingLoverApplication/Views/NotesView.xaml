@@ -39,7 +39,8 @@
                 Foreground="#FF2D0355" 
                 Margin="0 0 0 10"/>
             <TextBox 
-                Text="{Binding NoteTitle, UpdateSourceTrigger=PropertyChanged}" 
+                Text="{Binding NoteTitle, UpdateSourceTrigger=PropertyChanged}"
+                MaxLength="40"
                 FontSize="16"
                 Margin="0 0 0 10"/>
             <TextBlock 
@@ -49,7 +50,8 @@
                 Foreground="#FF2D0355" 
                 Margin="0 0 0 10"/>
             <TextBox 
-                Text="{Binding NoteContent, UpdateSourceTrigger=PropertyChanged}" 
+                Text="{Binding NoteContent, UpdateSourceTrigger=PropertyChanged}"
+                MaxLength="120"
                 FontSize="16"
                 AcceptsReturn="True" 
                 Height="60" 
@@ -68,40 +70,38 @@
                 Margin="0 0 0 10"/>
         </StackPanel>
 
-        <ListBox Grid.Row="2"
-             Background="Honeydew"
-             Margin="30"
-             BorderThickness="0"
-             ItemsSource="{Binding Notes}"
-             SelectedItem="{Binding SelectedNote}">
-            <ListBox.ItemTemplate>
+        <ItemsControl Grid.Row="2" ItemsSource="{Binding Notes}" Margin="30" Background="Honeydew">
+            <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <StackPanel>
-                        <TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="18" Foreground="#FF2D0355" />
-                        <TextBlock Text="{Binding Created, StringFormat=\{0:yyyy-MM-dd HH:mm\}}" FontWeight="Medium" FontSize="12" Foreground="#FF2D0355" />
-                        <TextBlock Text="{Binding Content}" FontWeight="Medium" FontSize="16" Foreground="#FF2D0355"  TextWrapping="Wrap" Margin="0 5 0 5"/>
-                        <StackPanel Orientation="Horizontal" Margin="0 6 0 4">
-                            <Button 
-                                Content="Edit" 
-                                Command="{Binding DataContext.EditCommand, RelativeSource={RelativeSource AncestorType=ListBox}}" 
-                                CommandParameter="{Binding}"
-                                FontWeight="Medium" 
-                                Height="20" 
-                                Width="60" 
-                                Background="BlanchedAlmond"/>
-                            <Button 
-                                Margin="10 0 0 0" 
-                                Content="Delete" 
-                                Command="{Binding DeleteCommand}" 
-                                FontWeight="Medium" 
-                                Height="20" 
-                                Width="60" 
-                                Background="BlanchedAlmond"/>
+                    <Border BorderBrush="Olive" BorderThickness="2" Margin="5">
+                        <StackPanel Orientation="Vertical" Margin="5">
+                            <TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="18" Foreground="#FF2D0355" />
+                            <TextBlock Text="{Binding Created, StringFormat=\{0:yyyy-MM-dd HH:mm\}}" FontWeight="Medium" FontSize="12" Foreground="#FF2D0355" />
+                            <TextBlock Text="{Binding Content}" FontWeight="Medium" FontSize="16" Foreground="#FF2D0355"  TextWrapping="Wrap" Margin="0 5 0 5"/>
+                            <StackPanel Orientation="Horizontal" Margin="0 6 0 4">
+                                <Button 
+                                    Content="Edit" 
+                                    Command="{Binding DataContext.EditCommand, RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}" 
+                                    CommandParameter="{Binding}"
+                                    FontWeight="Medium" 
+                                    Height="20" 
+                                    Width="60" 
+                                    Background="BlanchedAlmond"/>
+                                <Button 
+                                    Margin="10 0 0 0" 
+                                    Content="Delete" 
+                                    Command="{Binding DataContext.DeleteCommand, RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}" 
+                                    CommandParameter="{Binding}"
+                                    FontWeight="Medium" 
+                                    Height="20" 
+                                    Width="60" 
+                                    Background="BlanchedAlmond"/>
+                            </StackPanel>
                         </StackPanel>
-                    </StackPanel>
+                    </Border>
                 </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
 
     </Grid>
 </UserControl>

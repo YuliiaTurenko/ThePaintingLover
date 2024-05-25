@@ -61,6 +61,31 @@ namespace ThePaintingLoverApplication.ViewModels
 
         private void ExecuteSubmit(object parameter)
         {
+            if(Username.Replace(" ", "").Length < 3)
+            {
+                MessageBox.Show("Name must have at least 3 symbols and maximum 30 symbols.");
+                return;
+            }
+            if (PasswordToSignup.Length < 4)
+            {
+                MessageBox.Show("Password must have at least 4 symbols and maximum 30 symbols with spaces.");
+                return;
+            }
+            if (!PasswordToSignup.Any(char.IsDigit))
+            {
+                MessageBox.Show("Password must have at least one number.");
+                return;
+            }
+            if(IsValidEmail(EmailToSignup) == false)
+            {
+                MessageBox.Show("Email must look like this: user1111@example.com");
+                return;
+            }
+            if(EmailToSignup.Length < 6)
+            {
+                MessageBox.Show("Email must have at least 6 symbols and maximum 30 symbols with spaces.");
+                return;
+            }
             var users = _userData.GetAllUsers();
             if (users.Any(u => u.Email == EmailToSignup))
             {
@@ -72,6 +97,19 @@ namespace ThePaintingLoverApplication.ViewModels
             _userData.SaveUserData(newUser);
             MessageBox.Show("Registration is successful.");
             _navigationStore.CurrentViewModel = new MainMenuViewModel(_navigationStore, newUser);
+        }
+
+        private bool IsValidEmail(string email)
+        {
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
         }
 
         private bool CanExecuteSubmit(object parameter)

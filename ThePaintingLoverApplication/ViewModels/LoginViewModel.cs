@@ -47,6 +47,21 @@ namespace ThePaintingLoverApplication.ViewModels
 
         private void ExecuteSubmit(object parameter)
         {
+            if (PasswordToLogin.Length < 4)
+            {
+                MessageBox.Show("Password can't be less than 4 symbols and more than 30 symbols with spaces.");
+                return;
+            }
+            if (IsValidEmail(EmailToLogin) == false)
+            {
+                MessageBox.Show("Email must look like this: user1111@example.com");
+                return;
+            }
+            if (EmailToLogin.Length < 6)
+            {
+                MessageBox.Show("Email must have at least 6 symbols and maximum 30 symbols with spaces.");
+                return;
+            }
             var users = _userData.GetAllUsers();
             var user = users.FirstOrDefault(u => u.Email == EmailToLogin && u.Password == PasswordToLogin);
             if (user != null)
@@ -57,6 +72,19 @@ namespace ThePaintingLoverApplication.ViewModels
             else
             {
                 MessageBox.Show("Incorrect username or password.");
+            }
+        }
+
+        private bool IsValidEmail(string email)
+        {
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
             }
         }
 

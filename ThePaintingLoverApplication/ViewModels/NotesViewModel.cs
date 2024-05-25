@@ -1,9 +1,10 @@
-﻿using System.Diagnostics.Metrics;
+﻿using System.Windows;
+using System.Windows.Data;
 using System.Windows.Input;
-using System.Xml.Linq;
 using ThePaintingLoverApplication.Models;
 using ThePaintingLoverApplication.Services;
 using ThePaintingLoverApplication.Stores;
+using ThePaintingLoverApplication.Views;
 
 namespace ThePaintingLoverApplication.ViewModels
 {
@@ -11,7 +12,6 @@ namespace ThePaintingLoverApplication.ViewModels
     {
         private string _noteTitle;
         private string _noteContent;
-        private Note _selectedNote;
         private readonly NavigationStore _navigationStore;
         private readonly User _user;
         private readonly UserDataService _userDataService;
@@ -36,6 +36,7 @@ namespace ThePaintingLoverApplication.ViewModels
             {
                 _noteTitle = value;
                 OnPropertyChanged(nameof(NoteTitle));
+                ((RelayCommand)AddNoteCommand).RaiseCanExecuteChanged();
             }
         }
 
@@ -46,17 +47,7 @@ namespace ThePaintingLoverApplication.ViewModels
             {
                 _noteContent = value;
                 OnPropertyChanged(nameof(NoteContent));
-            }
-        }
-
-        public Note SelectedNote
-        {
-            get { return _selectedNote; }
-            set
-            {
-                _selectedNote = value;
-                OnPropertyChanged(nameof(SelectedNote));
-                UpdateTextBoxes();
+                ((RelayCommand)AddNoteCommand).RaiseCanExecuteChanged();
             }
         }
 
@@ -78,30 +69,36 @@ namespace ThePaintingLoverApplication.ViewModels
                 _userDataService.UpdateUserData(_user);
                 NoteTitle = string.Empty;
                 NoteContent = string.Empty;
+                CollectionViewSource.GetDefaultView(Notes).Refresh();
             }
         }
 
-        // finish method for delete command
         private void DeleteNote(object parameter)
         {
-            _user.Notes.Remove(SelectedNote);
-            _userDataService.UpdateUserData(_user);
-            OnPropertyChanged(nameof(Notes));
+            if(parameter is Note note)
+            {
+                var result = MessageBox.Show("Are you sure you want to delete this note?", "Confirmation", MessageBoxButton.YesNo);
+                if (result == MessageBoxResult.Yes)
+                {
+                    _user.Notes.Remove(note);
+                    _userDataService.UpdateUserData(_user);
+                    OnPropertyChanged(nameof(Notes));
+                    CollectionViewSource.GetDefaultView(Notes).Refresh();
+                }
+            }
         }
-        // finish method for edit command
+
         private void EditNote(object parameter)
         {
             if (parameter is Note note)
             {
-                SelectedNote = note;
-            }
-        }
-        private void UpdateTextBoxes()
-        {
-            if (SelectedNote != null)
-            {
-                NoteTitle = SelectedNote.Title;
-                NoteContent = SelectedNote.Content;
+                var editWindow = new EditNoteWindow(note, _user);
+                if (editWindow.ShowDialog() == true)
+                {
+                    _userDataService.UpdateUserData(_user);
+                    OnPropertyChanged(nameof(Notes));
+                    CollectionViewSource.GetDefaultView(Notes).Refresh();
+                }
             }
         }
     }

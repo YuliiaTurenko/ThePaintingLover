@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\App.xaml
-11-2106400053
+1268702373
 50-428937514
-381897622093
+401010987478
 199473384696
-MainWindow.xaml;Views\ArtistView.xaml;Views\EntryView.xaml;Views\FavoritePaintingsView.xaml;Views\ListOfArtistsView.xaml;Views\ListOfStylesView.xaml;Views\LoginView.xaml;Views\MainMenu.xaml;Views\NotesView.xaml;Views\RegistrationView.xaml;Views\StyleView.xaml;
+MainWindow.xaml;Views\ArtistView.xaml;Views\EditNoteWindow.xaml;Views\EntryView.xaml;Views\FavoritePaintingsView.xaml;Views\ListOfArtistsView.xaml;Views\ListOfStylesView.xaml;Views\LoginView.xaml;Views\MainMenu.xaml;Views\NotesView.xaml;Views\RegistrationView.xaml;Views\StyleView.xaml;
 
-False
+True
 
