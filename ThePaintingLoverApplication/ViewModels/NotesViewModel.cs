@@ -1,5 +1,4 @@
-﻿using System.Windows;
-using System.Windows.Data;
+﻿using System.Windows.Data;
 using System.Windows.Input;
 using ThePaintingLoverApplication.Models;
 using ThePaintingLoverApplication.Services;
@@ -36,7 +35,6 @@ namespace ThePaintingLoverApplication.ViewModels
             {
                 _noteTitle = value;
                 OnPropertyChanged(nameof(NoteTitle));
-                ((RelayCommand)AddNoteCommand).RaiseCanExecuteChanged();
             }
         }
 
@@ -47,7 +45,6 @@ namespace ThePaintingLoverApplication.ViewModels
             {
                 _noteContent = value;
                 OnPropertyChanged(nameof(NoteContent));
-                ((RelayCommand)AddNoteCommand).RaiseCanExecuteChanged();
             }
         }
 
@@ -77,8 +74,9 @@ namespace ThePaintingLoverApplication.ViewModels
         {
             if(parameter is Note note)
             {
-                var result = MessageBox.Show("Are you sure you want to delete this note?", "Confirmation", MessageBoxButton.YesNo);
-                if (result == MessageBoxResult.Yes)
+                var confirmationDialog = new ConfirmationDialogWindow("Are you sure you want to delete this note?");
+                confirmationDialog.ShowDialog();
+                if (confirmationDialog.IsConfirmed)
                 {
                     _user.Notes.Remove(note);
                     _userDataService.UpdateUserData(_user);

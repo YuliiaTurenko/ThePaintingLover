@@ -68,7 +68,7 @@ namespace ThePaintingLoverApplication.ViewModels
             }
             if (PasswordToSignup.Length < 4)
             {
-                MessageBox.Show("Password must have at least 4 symbols and maximum 30 symbols with spaces.");
+                MessageBox.Show("Password must have at least 4 symbols and maximum 30 symbols. Don't use spaces.");
                 return;
             }
             if (!PasswordToSignup.Any(char.IsDigit))
@@ -83,7 +83,7 @@ namespace ThePaintingLoverApplication.ViewModels
             }
             if(EmailToSignup.Length < 6)
             {
-                MessageBox.Show("Email must have at least 6 symbols and maximum 30 symbols with spaces.");
+                MessageBox.Show("Email must have at least 6 symbols and maximum 30 symbols. Don't use spaces.");
                 return;
             }
             var users = _userData.GetAllUsers();

@@ -7,10 +7,31 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\AddArtistWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AddStyleWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AdminListsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AdminLoginView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\ArtistView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\ConfirmationDialogWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditArtistWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\EditNoteWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditStyleWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\EntryView.xaml.cs">
@@ -45,10 +66,31 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\AddArtistWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AddStyleWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AdminListsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AdminLoginView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\ArtistView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\ConfirmationDialogWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EditArtistWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\EditNoteWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EditStyleWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\EntryView.xaml">

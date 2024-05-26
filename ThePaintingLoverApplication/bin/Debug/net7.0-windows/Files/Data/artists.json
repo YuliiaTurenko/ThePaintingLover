@@ -3,7 +3,7 @@
     "Name": "Leonardo da Vinci",
     "Country": "Italy",
     "Biography": "Leonardo da Vinci was an Italian painter, draftsman, sculptor, architect, and engineer whose skill and intelligence, perhaps more than that of any other figure, epitomized the Renaissance humanist ideal. \nHe used his superb intellect, unusual powers of observation, and mastery of the art of drawing to study nature itself, a line of inquiry that allowed his dual pursuits of art and science to flourish. \nHe was also frequently consulted as a technical adviser in the fields of architecture, fortifications, and military matters, and he served as a hydraulic and mechanical engineer. As a painter, Leonardo completed six works in the 17 years in Milan. Leonardo surpassed the naturalistic techniques of Early Renaissance masters through his meticulous attention to detail and through the introduction of new methods. \nLeonardo worked and traveled throughout Italy for a number of employers. About 1503, Leonardo reportedly began work on the Mona Lisa. From 1513 to 1516, he worked in Rome, maintaining a workshop and undertaking a variety of projects for the Pope. He continued his studies of human anatomy and physiology, but the Pope forbade him from dissecting cadavers, limiting his progress.",
-    "YearsOfLife": "(born April 15, 1452,  — died May 2, 1519)",
+    "YearsOfLife": "(born April 15, 1452, — died May 2, 1519)",
     "Paintings": [
       {
         "Title": "Lady with an Ermine",
@@ -350,7 +350,7 @@
     ]
   },
   {
-    "Name": "Élisabeth Vigée-Lebrun",
+    "Name": "Elisabeth Vigee-Lebrun",
     "Country": "France",
     "Biography": "Élisabeth Vigée-Lebrun was a French painter, one of the most successful women artists (unusually so for her time), particularly noted for her portraits of women. \nVigée-Lebrun painted more than 20 portraits of Marie-Antoinette in a great variety of poses and costumes. She also painted a great number of self-portraits, in the style of various artists whose work she admired. \n Vigée Le Brun was particularly praised for her sympathetic portraits of aristocratic women, deemed more natural than the works of her contemporaries. During her career, according to her own account, she painted 900 pictures, including some 600 portraits and about 200 landscapes.",
     "YearsOfLife": "(born April 16, 1755 — died March 30, 1842)",
@@ -448,5 +448,12 @@
         "FilePath": "/Files/Data/Paintings/PineappleBud.jpg"
       }
     ]
+  },
+  {
+    "Name": "John White Abbott",
+    "Country": "England",
+    "Biography": "John White Abbott was an English surgeon and apothecary in Exeter, remembered as a keen amateur painter in both watercolour and oils. His oil paintings were once well known but the great bulk of his work was landscape watercolours. He had a series of etchings of his paintings created which was nearly complete at the time of his death. He made a sketching tour to Scotland and the Lake District in 1791.",
+    "YearsOfLife": "(born 1763 - died 1851)",
+    "Paintings": []
   }
 ]

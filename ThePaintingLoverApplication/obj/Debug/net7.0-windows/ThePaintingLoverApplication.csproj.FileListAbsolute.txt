@@ -192,3 +192,17 @@ D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-window
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\ref\ThePaintingLoverApplication.dll
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\EditNoteWindow.g.cs
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\EditNoteWindow.baml
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\AdminListsView.g.cs
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\ConfirmationDialogWindow.g.cs
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\AdminListsView.baml
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\ConfirmationDialogWindow.baml
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\AddArtistWindow.g.cs
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\AdminLoginView.g.cs
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\EditArtistWindow.g.cs
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\AddArtistWindow.baml
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\AdminLoginView.baml
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\EditArtistWindow.baml
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\AddStyleWindow.g.cs
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\EditStyleWindow.g.cs
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\AddStyleWindow.baml
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\EditStyleWindow.baml

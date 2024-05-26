@@ -17,6 +17,8 @@ namespace ThePaintingLoverApplication.ViewModels
             _user = user;
             _note = note;
             _window = window;
+            Title = _note.Title;
+            Content = _note.Content;
             SaveCommand = new RelayCommand(SaveNote);
         }
 
@@ -27,7 +29,6 @@ namespace ThePaintingLoverApplication.ViewModels
             {
                 _noteTitle = value;
                 OnPropertyChanged(nameof(Title));
-                ((RelayCommand)SaveCommand).RaiseCanExecuteChanged();
             }
         }
 
@@ -38,7 +39,6 @@ namespace ThePaintingLoverApplication.ViewModels
             {
                 _noteContent = value;
                 OnPropertyChanged(nameof(Content));
-                ((RelayCommand)SaveCommand).RaiseCanExecuteChanged();
             }
         }
 

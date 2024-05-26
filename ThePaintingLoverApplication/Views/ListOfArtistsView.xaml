@@ -13,9 +13,9 @@
         </Grid.RowDefinitions>
         
         <TextBlock Grid.Row="0"
-             Text="Artists"
-             Style="{StaticResource Header}"
-             Foreground="#FF2D0250"/>
+            Text="Artists"
+            Style="{StaticResource Header}"
+            Foreground="#FF2D0250"/>
 
         <Button Grid.Row="0"
             Width="80"
@@ -31,11 +31,11 @@
             Margin="0 8 30 0"/>
 
         <ListBox Grid.Row="1"
-         Background="LightYellow"
-         Margin="30"
-         BorderThickness="0"
-         ItemsSource="{Binding ListOfArtists}"
-         SelectedItem="{Binding SelectedArtist}">
+             Background="LightYellow"
+             Margin="30"
+             BorderThickness="0"
+             ItemsSource="{Binding ListOfArtists}"
+             SelectedItem="{Binding SelectedArtist}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <TextBlock Text="{Binding}" FontSize="16" FontWeight="Medium" Foreground="#FF2D0355" Margin="6"/>

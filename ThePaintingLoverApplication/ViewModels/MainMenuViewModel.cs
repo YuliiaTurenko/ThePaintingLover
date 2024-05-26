@@ -125,7 +125,6 @@ namespace ThePaintingLoverApplication.ViewModels
             {
                 SearchResults = results;
             }
-            
         }
 
         private void OpenDetails()

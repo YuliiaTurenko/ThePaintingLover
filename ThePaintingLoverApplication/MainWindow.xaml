@@ -9,7 +9,7 @@
         Icon="/Files/starry-night.png"
         Title="The Painting Lover" Height="450" Width="806" Background="LightYellow">
     <ScrollViewer VerticalScrollBarVisibility="Auto">
-        <Grid MaxWidth="1200" MinWidth="800">
+        <Grid MaxWidth="1400" MinWidth="800">
             <Grid.Resources>
                 <DataTemplate DataType="{x:Type viewmodels:EntryViewModel}">
                     <views:EntryView />
@@ -19,6 +19,12 @@
                 </DataTemplate>
                 <DataTemplate DataType="{x:Type viewmodels:LoginViewModel}">
                     <views:LoginView />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodels:AdminLoginViewModel}">
+                    <views:AdminLoginView />
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodels:AdminListsViewModel}">
+                    <views:AdminListsView />
                 </DataTemplate>
                 <DataTemplate DataType="{x:Type viewmodels:MainMenuViewModel}">
                     <views:MainMenu />

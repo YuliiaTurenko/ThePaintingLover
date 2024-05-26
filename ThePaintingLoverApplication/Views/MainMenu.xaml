@@ -18,11 +18,11 @@
         </Grid.RowDefinitions>
 
         <TextBlock Text="The Painting Lover"
-                   VerticalAlignment="Center"
-                   HorizontalAlignment="Center"
-                   Foreground="Honeydew"
-                   FontSize="22"
-                   FontWeight="Medium"/>
+             VerticalAlignment="Center"
+             HorizontalAlignment="Center"
+             Foreground="Honeydew"
+             FontSize="22"
+             FontWeight="Medium"/>
 
         <StackPanel Grid.Row="1" Background="#FFF4F5B3">
             <Button 
@@ -63,23 +63,23 @@
             Text="{Binding SearchQuery, UpdateSourceTrigger=PropertyChanged}"/>
 
         <Button Grid.Row="0" Grid.Column="1"
-                Width="80"
-                Height="30"
-                Content="Search"
-                FontSize="14"
-                FontWeight="Medium"
-                Command="{Binding SearchCommand}"
-                Foreground="#FF2D0355" 
-                Background="LightYellow"
-                BorderThickness="0"
-                HorizontalAlignment="Left"
-                Margin="330 0 0 0"/>
+            Width="80"
+            Height="30"
+            Content="Search"
+            FontSize="14"
+            FontWeight="Medium"
+            Command="{Binding SearchCommand}"
+            Foreground="#FF2D0355" 
+            Background="LightYellow"
+            BorderThickness="0"
+            HorizontalAlignment="Left"
+            Margin="330 0 0 0"/>
 
         <ListBox Grid.Row="1" Grid.Column="1"
-                 Background="LightYellow"
-                 BorderThickness="0"
-                 ItemsSource="{Binding SearchResults}"
-                 SelectedItem="{Binding SelectedResult}">
+            Background="LightYellow"
+            BorderThickness="0"
+            ItemsSource="{Binding SearchResults}"
+            SelectedItem="{Binding SelectedResult}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <TextBlock Text="{Binding}" FontSize="16" FontWeight="Medium" Foreground="#FF2D0355" Margin="6"/>

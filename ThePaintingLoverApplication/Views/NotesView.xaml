@@ -102,6 +102,5 @@
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>
-
     </Grid>
 </UserControl>

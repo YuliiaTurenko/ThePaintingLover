@@ -49,7 +49,7 @@ namespace ThePaintingLoverApplication.ViewModels
         {
             if (PasswordToLogin.Length < 4)
             {
-                MessageBox.Show("Password can't be less than 4 symbols and more than 30 symbols with spaces.");
+                MessageBox.Show("Password can't be less than 4 symbols and more than 30 symbols. Don't use spaces.");
                 return;
             }
             if (IsValidEmail(EmailToLogin) == false)
@@ -59,14 +59,13 @@ namespace ThePaintingLoverApplication.ViewModels
             }
             if (EmailToLogin.Length < 6)
             {
-                MessageBox.Show("Email must have at least 6 symbols and maximum 30 symbols with spaces.");
+                MessageBox.Show("Email must have at least 6 symbols and maximum 30 symbols. Don't use spaces.");
                 return;
             }
             var users = _userData.GetAllUsers();
             var user = users.FirstOrDefault(u => u.Email == EmailToLogin && u.Password == PasswordToLogin);
             if (user != null)
             {
-                MessageBox.Show("Login is successful.");
                 _navigationStore.CurrentViewModel = new MainMenuViewModel(_navigationStore, user);
             }
             else

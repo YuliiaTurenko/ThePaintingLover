@@ -14,10 +14,12 @@ namespace ThePaintingLoverApplication.ViewModels
 
             RegistrationCommand = new RelayCommand(ExecuteRegistrationCommand);
             LoginCommand = new RelayCommand(ExecuteLoginCommand);
+            OpenForAdminCommand = new RelayCommand(ExecuteOpenForAdminCommand);
         }
 
         public ICommand RegistrationCommand { get; }
         public ICommand LoginCommand { get; }
+        public ICommand OpenForAdminCommand { get; }
 
         private void ExecuteRegistrationCommand(object parameter)
         {
@@ -27,6 +29,11 @@ namespace ThePaintingLoverApplication.ViewModels
         private void ExecuteLoginCommand(object parameter)
         {
             _navigationStore.CurrentViewModel = new LoginViewModel(new UserDataService(), _navigationStore);
+        }
+
+        private void ExecuteOpenForAdminCommand(object parameter)
+        {
+            _navigationStore.CurrentViewModel = new AdminLoginViewModel(_navigationStore);
         }
     }
 }
