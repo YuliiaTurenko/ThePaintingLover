@@ -47,6 +47,9 @@
                 <DataTemplate DataType="{x:Type viewmodels:StyleViewModel}">
                     <views:StyleView />
                 </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodels:ChangeUserPasswordViewModel}">
+                    <views:ChangeUserPasswordView />
+                </DataTemplate>
             </Grid.Resources>
             
             <ContentControl Content="{Binding CurrentViewModel}" />

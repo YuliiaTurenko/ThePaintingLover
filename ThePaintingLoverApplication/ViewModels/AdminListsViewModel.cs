@@ -16,10 +16,9 @@ namespace ThePaintingLoverApplication.ViewModels
             AddArtistCommand = new RelayCommand(AddArtist);
             DeleteArtistCommand = new RelayCommand(DeleteArtist);
             EditArtistCommand = new RelayCommand(EditArtist);
-
-            //AddStyleCommand = new RelayCommand(AddStyle);
-            //DeleteStyleCommand = new RelayCommand(DeleteStyle);
-            //EditStyleCommand = new RelayCommand(EditStyle);
+            AddStyleCommand = new RelayCommand(AddStyle);
+            DeleteStyleCommand = new RelayCommand(DeleteStyle);
+            EditStyleCommand = new RelayCommand(EditStyle);
         }
 
         public List<Artist> Artists => _dataService.GetArtists();

@@ -2,7 +2,7 @@
   {
     "Username": "Mila",
     "Email": "mila@gmail.com",
-    "Password": "1111m",
+    "Password": "1212m",
     "FavoritePaintings": [
       {
         "Title": "Self-Portrait in a Straw Hat",
@@ -28,6 +28,11 @@
         "Title": "lala",
         "Content": "i want to sleep",
         "Created": "2024-05-23T21:46:17.0159429+03:00"
+      },
+      {
+        "Title": "yeahhhh",
+        "Content": "lol",
+        "Created": "2024-05-27T09:52:11.611977+03:00"
       }
     ]
   },
@@ -36,6 +41,32 @@
     "Email": "baba@gmail.com",
     "Password": "baba0.1",
     "FavoritePaintings": [],
+    "Notes": []
+  },
+  {
+    "Username": "Hanna",
+    "Email": "hanna@gmail.com",
+    "Password": "barara12",
+    "FavoritePaintings": [
+      {
+        "Title": "The Storm on the Sea of Galilee",
+        "ArtistName": "Rembrandt",
+        "CreationYear": "1633",
+        "FilePath": "/Files/Data/Paintings/TheStormOnTheLakeOfGalilee.jpg"
+      },
+      {
+        "Title": "Springtime",
+        "ArtistName": "Claude Monet",
+        "CreationYear": "1872",
+        "FilePath": "/Files/Data/Paintings/Springtime.jpg"
+      },
+      {
+        "Title": "Water Lilies",
+        "ArtistName": "Claude Monet",
+        "CreationYear": "1906",
+        "FilePath": "/Files/Data/Paintings/WaterLilies.jpg"
+      }
+    ],
     "Notes": []
   }
 ]

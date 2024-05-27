@@ -1,5 +1,4 @@
 ﻿using System.Windows.Input;
-using ThePaintingLoverApplication.Services;
 using ThePaintingLoverApplication.Stores;
 
 namespace ThePaintingLoverApplication.ViewModels
@@ -23,12 +22,12 @@ namespace ThePaintingLoverApplication.ViewModels
 
         private void ExecuteRegistrationCommand(object parameter)
         {
-            _navigationStore.CurrentViewModel = new RegistrationViewModel(new UserDataService(), _navigationStore);
+            _navigationStore.CurrentViewModel = new RegistrationViewModel(_navigationStore);
         }
 
         private void ExecuteLoginCommand(object parameter)
         {
-            _navigationStore.CurrentViewModel = new LoginViewModel(new UserDataService(), _navigationStore);
+            _navigationStore.CurrentViewModel = new LoginViewModel(_navigationStore);
         }
 
         private void ExecuteOpenForAdminCommand(object parameter)

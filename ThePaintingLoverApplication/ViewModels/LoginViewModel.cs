@@ -12,9 +12,9 @@ namespace ThePaintingLoverApplication.ViewModels
         private readonly UserDataService _userData;
         private readonly NavigationStore _navigationStore;
 
-        public LoginViewModel(UserDataService userData, NavigationStore navigationStore)
+        public LoginViewModel(NavigationStore navigationStore)
         {
-            _userData = userData;
+            _userData = new UserDataService();
             _navigationStore = navigationStore;
             SubmitCommand = new RelayCommand(ExecuteSubmit, CanExecuteSubmit);
             CancelCommand = new RelayCommand(ExecuteCancel);
@@ -70,7 +70,7 @@ namespace ThePaintingLoverApplication.ViewModels
             }
             else
             {
-                MessageBox.Show("Incorrect username or password.");
+                MessageBox.Show("Incorrect email or password.");
             }
         }
 

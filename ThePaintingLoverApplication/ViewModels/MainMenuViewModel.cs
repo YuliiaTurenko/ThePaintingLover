@@ -25,6 +25,7 @@ namespace ThePaintingLoverApplication.ViewModels
             ShowListOfStylesCommand = new RelayCommand(ShowListOfStyles);
             ShowFavoritePaintingsCommand = new RelayCommand(ShowFavoritePaintings);
             ShowNotesCommand = new RelayCommand(ShowNotes);
+            ChangePasswordCommand = new RelayCommand(ChangePassword);
             SearchCommand = new RelayCommand(ExecuteSearch, CanExecuteSearch);
         }
 
@@ -64,6 +65,7 @@ namespace ThePaintingLoverApplication.ViewModels
         public ICommand ShowListOfStylesCommand { get; }
         public ICommand ShowFavoritePaintingsCommand { get; }
         public ICommand ShowNotesCommand { get; }
+        public ICommand ChangePasswordCommand {  get; }
         public ICommand SearchCommand { get; }
 
         private void ShowListOfArtists(object parameter)
@@ -84,6 +86,11 @@ namespace ThePaintingLoverApplication.ViewModels
         private void ShowNotes(object parameter)
         {
             _navigationStore.CurrentViewModel = new NotesViewModel(_navigationStore, _currentUser);
+        }
+
+        private void ChangePassword(object parameter)
+        {
+            _navigationStore.CurrentViewModel = new ChangeUserPasswordViewModel(_currentUser, _navigationStore);
         }
 
         private bool CanExecuteSearch(object parameter)

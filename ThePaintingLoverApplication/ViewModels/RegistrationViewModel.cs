@@ -14,9 +14,9 @@ namespace ThePaintingLoverApplication.ViewModels
         private readonly UserDataService _userData;
         private readonly NavigationStore _navigationStore;
 
-        public RegistrationViewModel(UserDataService userData, NavigationStore navigationStore)
+        public RegistrationViewModel(NavigationStore navigationStore)
         {
-            _userData = userData;
+            _userData = new UserDataService();
             _navigationStore = navigationStore;
             SubmitCommand = new RelayCommand(ExecuteSubmit, CanExecuteSubmit);
             CancelCommand = new RelayCommand(ExecuteCancel);
@@ -66,16 +66,6 @@ namespace ThePaintingLoverApplication.ViewModels
                 MessageBox.Show("Name must have at least 3 symbols and maximum 30 symbols.");
                 return;
             }
-            if (PasswordToSignup.Length < 4)
-            {
-                MessageBox.Show("Password must have at least 4 symbols and maximum 30 symbols. Don't use spaces.");
-                return;
-            }
-            if (!PasswordToSignup.Any(char.IsDigit))
-            {
-                MessageBox.Show("Password must have at least one number.");
-                return;
-            }
             if(IsValidEmail(EmailToSignup) == false)
             {
                 MessageBox.Show("Email must look like this: user1111@example.com");
@@ -90,6 +80,16 @@ namespace ThePaintingLoverApplication.ViewModels
             if (users.Any(u => u.Email == EmailToSignup))
             {
                 MessageBox.Show("A user with this email address already exists.");
+                return;
+            }
+            if (PasswordToSignup.Length < 4)
+            {
+                MessageBox.Show("Password must have at least 4 symbols and maximum 30 symbols. Don't use spaces.");
+                return;
+            }
+            if (!PasswordToSignup.Any(char.IsDigit))
+            {
+                MessageBox.Show("Password must have at least one number.");
                 return;
             }
             var newUser = new User(Username, EmailToSignup, PasswordToSignup);

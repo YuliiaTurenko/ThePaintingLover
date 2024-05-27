@@ -36,12 +36,22 @@ namespace ThePaintingLoverApplication.Services
         public void UpdateUserData(User user)
         {
             string fullFilePath = Path.Combine(GetFilesDirectoryPath(), FileName);
-            EnsureDirectoryExists(GetFilesDirectoryPath());
             string existingJson = File.ReadAllText(fullFilePath);
             List<User> users = GetAllUsers();
             var existingUser = users.FirstOrDefault(u => u.Email == user.Email);
             existingUser.FavoritePaintings = user.FavoritePaintings;
             existingUser.Notes = user.Notes;
+            string jsonString = JsonSerializer.Serialize(users, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(fullFilePath, jsonString);
+        }
+
+        public void UpdateUserPassword(User user, string newUserPassword)
+        {
+            string fullFilePath = Path.Combine(GetFilesDirectoryPath(), FileName);
+            string existingJson = File.ReadAllText(fullFilePath);
+            List<User> users = GetAllUsers();
+            var existingUser = users.FirstOrDefault(u => u.Email == user.Email);
+            existingUser.Password = newUserPassword;
             string jsonString = JsonSerializer.Serialize(users, new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(fullFilePath, jsonString);
         }

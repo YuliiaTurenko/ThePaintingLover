@@ -22,6 +22,9 @@
     <Compile Update="Views\ArtistView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\ChangeUserPasswordView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\ConfirmationDialogWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -79,6 +82,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\ArtistView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ChangeUserPasswordView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\ConfirmationDialogWindow.xaml">

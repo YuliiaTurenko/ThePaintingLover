@@ -206,3 +206,5 @@ D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-window
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\EditStyleWindow.g.cs
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\AddStyleWindow.baml
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\EditStyleWindow.baml
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\ChangeUserPasswordView.g.cs
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\ChangeUserPasswordView.baml
