@@ -3,6 +3,7 @@ using System.Windows.Input;
 using ThePaintingLoverApplication.Models;
 using ThePaintingLoverApplication.Services;
 using ThePaintingLoverApplication.Stores;
+using ThePaintingLoverApplication.Commands;
 using ThePaintingLoverApplication.Views;
 
 namespace ThePaintingLoverApplication.ViewModels

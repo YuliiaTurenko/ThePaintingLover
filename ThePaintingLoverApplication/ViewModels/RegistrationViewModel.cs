@@ -3,6 +3,7 @@ using System.Windows.Input;
 using ThePaintingLoverApplication.Models;
 using ThePaintingLoverApplication.Services;
 using ThePaintingLoverApplication.Stores;
+using ThePaintingLoverApplication.Commands;
 
 namespace ThePaintingLoverApplication.ViewModels
 {
@@ -90,6 +91,11 @@ namespace ThePaintingLoverApplication.ViewModels
             if (!PasswordToSignup.Any(char.IsDigit))
             {
                 MessageBox.Show("Password must have at least one number.");
+                return;
+            }
+            if (!PasswordToSignup.Any(char.IsLetter))
+            {
+                MessageBox.Show("Password must have at least one letter.");
                 return;
             }
             var newUser = new User(Username, EmailToSignup, PasswordToSignup);

@@ -2,6 +2,7 @@
 using System.Windows.Input;
 using ThePaintingLoverApplication.Models;
 using ThePaintingLoverApplication.Services;
+using ThePaintingLoverApplication.Commands;
 using ThePaintingLoverApplication.Views;
 
 namespace ThePaintingLoverApplication.ViewModels
@@ -46,7 +47,7 @@ namespace ThePaintingLoverApplication.ViewModels
         {
             if (parameter is Artist artist)
             {
-                var confirmationDialog = new ConfirmationDialogWindow("Are you sure you want to delete this note?");
+                var confirmationDialog = new ConfirmationDialogWindow("Are you sure you want to delete data of this artist?");
                 confirmationDialog.ShowDialog();
                 if (confirmationDialog.IsConfirmed)
                 {
@@ -84,7 +85,7 @@ namespace ThePaintingLoverApplication.ViewModels
         {
             if (parameter is Style style)
             {
-                var confirmationDialog = new ConfirmationDialogWindow("Are you sure you want to delete this note?");
+                var confirmationDialog = new ConfirmationDialogWindow("Are you sure you want to delete data of this style?");
                 confirmationDialog.ShowDialog();
                 if (confirmationDialog.IsConfirmed)
                 {

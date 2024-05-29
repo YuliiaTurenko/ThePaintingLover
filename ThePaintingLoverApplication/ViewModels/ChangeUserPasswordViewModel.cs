@@ -3,6 +3,7 @@ using System.Windows;
 using ThePaintingLoverApplication.Services;
 using ThePaintingLoverApplication.Stores;
 using ThePaintingLoverApplication.Models;
+using ThePaintingLoverApplication.Commands;
 
 namespace ThePaintingLoverApplication.ViewModels
 {
@@ -64,7 +65,13 @@ namespace ThePaintingLoverApplication.ViewModels
                     MessageBox.Show("Password must have at least one number.");
                     return;
                 }
+                if (!NewUserPassword.Any(char.IsLetter))
+                {
+                    MessageBox.Show("Password must have at least one letter.");
+                    return;
+                }
                 _userData.UpdateUserPassword(_user, NewUserPassword);
+                MessageBox.Show("You have changed your password successfully.");
                 _navigationStore.CurrentViewModel = new MainMenuViewModel(_navigationStore, user);
             }
             else

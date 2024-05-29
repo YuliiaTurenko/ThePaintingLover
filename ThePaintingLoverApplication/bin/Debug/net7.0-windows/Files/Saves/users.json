@@ -2,7 +2,7 @@
   {
     "Username": "Mila",
     "Email": "mila@gmail.com",
-    "Password": "1212m",
+    "Password": "1v1v",
     "FavoritePaintings": [
       {
         "Title": "Self-Portrait in a Straw Hat",
@@ -21,18 +21,19 @@
         "ArtistName": "Vincent van Gogh",
         "CreationYear": "1888",
         "FilePath": "/Files/Data/Paintings/VaseWithTwelveSunflowers.jpg"
+      },
+      {
+        "Title": "Lady with an Ermine",
+        "ArtistName": "Leonardo da Vinci",
+        "CreationYear": "1489\u20131491",
+        "FilePath": "/Files/Data/Paintings/LadyWithAnErmine.jpg"
       }
     ],
     "Notes": [
       {
-        "Title": "lala",
-        "Content": "i want to sleep",
-        "Created": "2024-05-23T21:46:17.0159429+03:00"
-      },
-      {
-        "Title": "yeahhhh",
-        "Content": "lol",
-        "Created": "2024-05-27T09:52:11.611977+03:00"
+        "Title": "Studing",
+        "Content": "I must learn more about LINQ. Revise \u0027async\u0027/\u0027await\u0027",
+        "Created": "2024-05-28T16:02:59.7514883+03:00"
       }
     ]
   },

@@ -158,7 +158,6 @@ D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-window
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\ListOfArtistsView.g.cs
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\ListOfStylesView.g.cs
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\LoginView.g.cs
-D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\MainMenu.g.cs
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\NotesView.g.cs
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\RegistrationView.g.cs
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\StyleView.g.cs
@@ -175,7 +174,6 @@ D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-window
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\ListOfArtistsView.baml
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\ListOfStylesView.baml
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\LoginView.baml
-D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\MainMenu.baml
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\NotesView.baml
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\RegistrationView.baml
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\StyleView.baml
@@ -208,3 +206,5 @@ D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-window
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\EditStyleWindow.baml
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\ChangeUserPasswordView.g.cs
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\ChangeUserPasswordView.baml
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\MainMenuView.g.cs
+D:\Solution\ThePaintingLover\ThePaintingLoverApplication\obj\Debug\net7.0-windows\Views\MainMenuView.baml

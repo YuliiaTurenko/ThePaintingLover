@@ -27,7 +27,7 @@
                     <views:AdminListsView />
                 </DataTemplate>
                 <DataTemplate DataType="{x:Type viewmodels:MainMenuViewModel}">
-                    <views:MainMenu />
+                    <views:MainMenuView />
                 </DataTemplate>
                 <DataTemplate DataType="{x:Type viewmodels:ListOfArtistsViewModel}">
                     <views:ListOfArtistsView />

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\Solution\ThePaintingLover\ThePaintingLoverApplication\App.xaml
-201373501177
+20698597108
 50-428937514
-53-358320638
+53-1443543282
 199473384696
-MainWindow.xaml;Views\AddArtistWindow.xaml;Views\AddStyleWindow.xaml;Views\AdminListsView.xaml;Views\AdminLoginView.xaml;Views\ArtistView.xaml;Views\ChangeUserPasswordView.xaml;Views\ConfirmationDialogWindow.xaml;Views\EditArtistWindow.xaml;Views\EditNoteWindow.xaml;Views\EditStyleWindow.xaml;Views\EntryView.xaml;Views\FavoritePaintingsView.xaml;Views\ListOfArtistsView.xaml;Views\ListOfStylesView.xaml;Views\LoginView.xaml;Views\MainMenu.xaml;Views\NotesView.xaml;Views\RegistrationView.xaml;Views\StyleView.xaml;
+MainWindow.xaml;Views\AddArtistWindow.xaml;Views\AddStyleWindow.xaml;Views\AdminListsView.xaml;Views\AdminLoginView.xaml;Views\ArtistView.xaml;Views\ChangeUserPasswordView.xaml;Views\ConfirmationDialogWindow.xaml;Views\EditArtistWindow.xaml;Views\EditNoteWindow.xaml;Views\EditStyleWindow.xaml;Views\EntryView.xaml;Views\FavoritePaintingsView.xaml;Views\ListOfArtistsView.xaml;Views\ListOfStylesView.xaml;Views\LoginView.xaml;Views\MainMenuView.xaml;Views\NotesView.xaml;Views\RegistrationView.xaml;Views\StyleView.xaml;
 
 False
 

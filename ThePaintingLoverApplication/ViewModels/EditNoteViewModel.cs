@@ -1,6 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Input;
 using ThePaintingLoverApplication.Models;
+using ThePaintingLoverApplication.Commands;
 
 namespace ThePaintingLoverApplication.ViewModels
 {

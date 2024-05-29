@@ -1,6 +1,7 @@
 ﻿using System.Windows.Input;
 using ThePaintingLoverApplication.Models;
 using ThePaintingLoverApplication.Services;
+using ThePaintingLoverApplication.Commands;
 using ThePaintingLoverApplication.Stores;
 
 namespace ThePaintingLoverApplication.ViewModels

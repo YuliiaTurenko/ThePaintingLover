@@ -1,6 +1,6 @@
 ﻿using System.Windows.Input;
 
-namespace ThePaintingLoverApplication.ViewModels
+namespace ThePaintingLoverApplication.Commands
 {
     public class RelayCommand : ICommand
     {

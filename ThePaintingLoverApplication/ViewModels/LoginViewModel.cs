@@ -2,6 +2,7 @@
 using System.Windows.Input;
 using ThePaintingLoverApplication.Services;
 using ThePaintingLoverApplication.Stores;
+using ThePaintingLoverApplication.Commands;
 
 namespace ThePaintingLoverApplication.ViewModels
 {

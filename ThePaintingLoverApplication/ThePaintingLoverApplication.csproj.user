@@ -52,7 +52,7 @@
     <Compile Update="Views\LoginView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\MainMenu.xaml.cs">
+    <Compile Update="Views\MainMenuView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\NotesView.xaml.cs">
@@ -114,7 +114,7 @@
     <Page Update="Views\LoginView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\MainMenu.xaml">
+    <Page Update="Views\MainMenuView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\NotesView.xaml">

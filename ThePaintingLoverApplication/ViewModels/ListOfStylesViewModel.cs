@@ -2,6 +2,7 @@
 using ThePaintingLoverApplication.Models;
 using ThePaintingLoverApplication.Services;
 using ThePaintingLoverApplication.Stores;
+using ThePaintingLoverApplication.Commands;
 
 namespace ThePaintingLoverApplication.ViewModels
 {
